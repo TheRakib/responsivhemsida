@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* ctrl+s för att få igång sass*/
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+html {
+  color: #242929; }
+
+/* Header bild */
+body {
+  background-image: url(bilder/header.png.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: auto; }
+
+p {
+  padding: 20px;
+  margin-bottom: 10px;
+  line-height: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 22px; }
+
+/* Styling för header*/
+.header1 {
+  padding-top: 40px;
+  text-align: center;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.header2 {
+  display: flex;
+  padding-top: 520px;
+  padding-left: 650px;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+header {
+  height: 650px; }
+
+.first {
+  padding-top: 100px;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  text-align: right;
+  padding-right: 300px;
+  flex-direction: column; }
+
+.first-line {
+  padding-bottom: 50px;
+  text-align: right;
+  padding-right: 400px; }
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 0; }
+
+.section1 h2 {
+  padding: 30px;
+  padding-left: 30px; }
+
+.section2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center; }
+
+.section3 {
+  text-align: center; }
+
+.text2 {
+  justify-content: center;
+  align-items: center;
+  flex-basis: auto;
+  margin-top: 100px; }
+
+img {
+  width: auto;
+  height: auto; }
+
+.tip {
+  background-image: url(bilder/Q1_newsletter-02.png);
+  object-fit: cover;
+  display: flex;
+  width: 1000px;
+  background-repeat: no-repeat;
+  height: auto;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+section h1 {
+  padding-bottom: 20px; }
+
+/* Tom grå/svart del av sida*/
+.black {
+  width: auto;
+  height: 400px;
+  background-color: #242929; }
+
+/* Styling för footer*/
+footer {
+  background-color: #242929;
+  color: white;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  align-items: stretch;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex: 1; }
+
+.footer-1 {
+  order: 1;
+  flex-basis: auto;
+  text-align: start; }
+
+.footer-1 h2 {
+  padding-left: 20px; }
+
+.footer-2 {
+  order: 2;
+  flex-basis: auto;
+  text-align: end;
+  padding-top: 50px; }
