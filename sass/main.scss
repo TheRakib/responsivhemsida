@@ -1,138 +1,166 @@
-/* ctrl+s för att få igång sass*/
-
 * {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
-}
-
-
-html {
-    color: #242929;
-}
-/* Header bild */
-body {
+    box-sizing: border-box; }
+  
+  html {
+    color: #5c5c5e;
+    font-family: Arial, Helvetica, sans-serif; }
+  
+  /* Header bild */
+  body {
     background-image: url(bilder/header.png.png);
     background-repeat: no-repeat;
     background-position: top;
     width: 100%;
     height: auto;
-}
-
-p {
+    background-size: contain; }
+  
+  p {
     padding: 20px;
     margin-bottom: 10px;
     line-height: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 22px;
-}
-
-/* Styling för header*/
-
-.header1 {
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; }
+  
+  /* Styling för header*/
+  .header1 {
     padding-top: 40px;
     text-align: center;
     padding-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-.header2 {
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    color: black; }
+  
+  .header2 {
+    padding-bottom: 20px;
     display: flex;
-    padding-top: 520px;
+    padding-top: 600px;
     padding-left: 650px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-header {
-    height: 650px;
-    
-}
-
-.first {
-    padding-top: 100px;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-    text-align: right;
-    padding-right: 300px;
-    flex-direction: column;
-   
-}
-
-.first-line {
+    color: black; }
+  
+  .first-line {
     padding-bottom: 50px;
-    text-align: right;
-    padding-right: 400px;
-}
-
-.section1 {
+    text-align: center;
+    justify-content: center;
+    padding-left: 20px;
+    align-items: flex-end;
+    line-height: 20px;
+    font-size: 18px; }
+  
+  .section1 {
     display: flex;
     flex-direction: row;
-    flex-basis: 0;
-}
-
-.section1 h2 {
+    padding-left: 50px;
+    font-size: 16px; }
+  
+  .section1 h2 {
     padding: 30px;
-    padding-left: 30px;
-}
-
-.section2 {
+    padding-left: 20px; }
+  
+  .section2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-}
-
-.section3 {
+    padding-top: 30px; }
+  
+  /* Text innan slutet */
+  .section3 {
     text-align: center;
-}
-.text2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px; }
+  
+  .text2 {
     justify-content: center;
     align-items: center;
     flex-basis: auto;
     margin-top: 100px;
-}
-
-img {
+    padding-top: 40px;
+    padding-right: 70px; }
+  
+  img {
     width: auto;
-    height: auto;
-}
-
-
-
-.tip {
-    background-image: url(bilder/Q1_newsletter-02.png);
-    
-    object-fit: cover;
-    display: flex;
-    width: 1000px;
+    height: 700px;
+    background-size: contain; }
+  
+  /* Style video och bakgrundsbild */
+  .videosection {
+    background-image: url(bilder/phone_no2-03.png);
+    width: 100%;
+    //background-attachment: relative;
     background-repeat: no-repeat;
-    height: auto;
+    background-position: center top;
+    background-size: 100%;
+    height: 700px;
+    display: flex;
+    align-content: flex-start;
     flex-direction: column;
-    text-align: center;
-    padding: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    flex-flow: wrap; 
+    justify-content: center;
+    padding-top: 180px;
 }
-
-
-
-section h1 {
-    padding-bottom: 20px;
-}
-
-/* Tom grå/svart del av sida*/
-
-.black {
+  
+  .video {
+    //position: absolute;
+    width: 40%;
+    //height: 120px;
+    //padding-right: 810px;
+    //margin-top: 100px;
+    justify-content: center;
+    /* display: block;
+      align-content: center;
+      width: 100%;
+      height: 150px;
+      position: absolute;
+      padding-right: 400px;
+      overflow: hidden;
+      margin-top: 200px;*/ }
+  
+  /* Style för tip of the week */
+  #tip {
+    background-size: cover;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: center;
+    text-align: center; }
+  
+  .imgtip {
+    background-image: url(bilder/Q1_newsletter-02.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-size: contain; }
+  
+  .tiptext {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 200px; }
+  
+  #tip h1 {
+    font-size: 48px; }
+  
+  section h1 {
+    padding-bottom: 20px; }
+  
+  /* Tom grå/svart del av sida*/
+  .black {
     width: auto;
     height: 400px;
-    background-color: #242929;
-}
-
-/* Styling för footer*/
-
-footer {
+    background-color: #242929; }
+  
+  /* Styling för footer*/
+  footer {
     background-color: #242929;
     color: white;
     flex-direction: row;
@@ -143,37 +171,19 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex: 1;
-}
-
-
-
-
-
-
-.footer-1 {
-    
+    width: 100%;
+    height: auto; }
+  
+  .footer-1 {
     order: 1;
     flex-basis: auto;
-    text-align: start;
-
-}
-
-.footer-1 h2 {
-   padding-left: 20px;
-
-
-}
-
-.footer-2 {
-    
+    text-align: start; }
+  
+  .footer-1 h2 {
+    padding-left: 20px; }
+  
+  .footer-2 {
     order: 2;
     flex-basis: auto;
     text-align: end;
-    padding-top: 50px;
-    
-    
-}
-
-
-
-
+    padding-top: 50px; }
