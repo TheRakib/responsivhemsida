@@ -24,7 +24,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px; }
 
-/* Styling för header*/
+/* Styling för header       använd rem istället för px */
 .header1 {
   padding-top: 40px;
   text-align: center;
@@ -42,6 +42,7 @@ p {
   color: black; }
 
 .first-line {
+  /* borde det inte finnas en display: flex    läs mer om flex-container och flex-items */ 
   padding-bottom: 50px;
   text-align: center;
   justify-content: center;
